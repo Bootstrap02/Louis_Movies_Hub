@@ -7,7 +7,7 @@ const Movies = ({movies}) => {
     const finishMovies = movies.length?(
         movies.map((movie)=>{
             return(
-                <div className='container' key={movie.imdbID}>
+                <div className='container p-1' key={movie.imdbID}>
           <div className='movie'>
             <div>
               <p>{movie.Year}</p>
